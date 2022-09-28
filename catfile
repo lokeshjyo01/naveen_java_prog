@@ -1,0 +1,12 @@
+package com.corejava.oops.inheritanceandpoly;
+
+public class Cat extends Memal {
+	
+	public void huntRat()
+	{
+		System.out.println("The Cat of the age "+age +"Of the name "+name +" is hunting Rat");
+	}
+	
+
+}
+

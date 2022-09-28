@@ -1,0 +1,19 @@
+package com.corejava.oops.inheritanceandpoly;
+
+public class Animal {
+	
+	String name;
+	int age;
+	
+	
+	public void eat()
+	{
+		System.out.println(" The animal of the age "+age +"Of the name "+name +" is eating....");
+	}
+
+	public void sleep()
+	{
+		System.out.println(" The animal of the age "+age +"Of the name "+name +" is sleeping....");
+	}
+}
+

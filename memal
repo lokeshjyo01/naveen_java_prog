@@ -1,0 +1,11 @@
+package com.corejava.oops.inheritanceandpoly;
+
+public class Memal extends Animal{
+	
+	public void walk()
+	{
+		System.out.println(" The memal of the age "+age +"Of the name "+name +" is walking....");
+	}
+
+}
+

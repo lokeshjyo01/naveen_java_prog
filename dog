@@ -1,0 +1,22 @@
+package com.corejava.oops.inheritanceandpoly;
+
+public class Dog extends Memal {
+	
+	public void bark()
+	{
+		System.out.println(" The Dog of the age "+age +"Of the name "+name +" is barking bow bow....");
+	}
+	
+	public void eat()
+	{
+		System.out.println(" The Dogee of the age "+age +"Of the name "+name +" is moving its tail while eating. ...");
+	}
+	
+	public void eat(String colour)	
+	{
+		System.out.println(" The Dog whose colour "+colour +" is eating....");
+	}
+	
+
+}
+
